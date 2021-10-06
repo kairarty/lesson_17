@@ -1,12 +1,3 @@
-/*
- * #1
- *
- * Создайте функцию counter(), которая должна реализовать счетчик с помощью замыкания:
- * функция может принимать число в качестве аргумента counter(n)
- * если число передано в функцию – счет начинается с указанного числа
- * если нет – то счет продолжается
- */
-
 var counter = (function () {
     var i = 0;
 
@@ -114,8 +105,7 @@ function myMul(a, b) {
 
 var myDouble = myMul.bind(null, 2);
 
-let myTriple = myMul.bind(null, 3);
-
+var myTriple = myMul.bind(null, 3);
 
 
 function myUniq(arr) {
